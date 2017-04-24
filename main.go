@@ -56,13 +56,5 @@ func main() {
 		}
 
 		decode(b)
-
-		fmt.Printf("% 02x\n", b)
 	}
-
-	sig := []byte("set(uint256)")
-	d := sha3.NewKeccak256()
-	d.Write(sig)
-	h := d.Sum(nil)
-	fmt.Printf("%s => 0x%02x\n", sig, h[:4])
 }
