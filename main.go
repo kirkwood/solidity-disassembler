@@ -4,7 +4,6 @@ import (
 	"encoding/hex"
 	"flag"
 	"fmt"
-	"github.com.old/ethereum/go-ethereum/crypto/sha3"
 	"io/ioutil"
 	"os"
 )
