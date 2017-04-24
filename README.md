@@ -1,12 +1,12 @@
-Quick and dirty decompiler for solidity contract binaries.
+Quick and dirty disassembler for solidity contract binaries.
 
 ```
-go build  -o decompiler *.go
+go build  -o disassemble *.go
 ```
 
 Takes the filename:
 ```
-$ ./decompiler SimpleStorage.bin
+$ ./disassemble SimpleStorage.bin
    0 0x00000000 0x60 PUSH1        0x60
    2 0x00000002 0x60 PUSH1        0x40
    4 0x00000004 0x52 MSTORE      
